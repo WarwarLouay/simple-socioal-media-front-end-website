@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5fdfa1bd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-------------------- START NAVBAR -------------------->
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                Facebook
+            </h2>
+
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="Search for creators, inspirations, and projects">
+            </div>
+
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="images/p2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-------------------- END NAVBAR -------------------->
+
+    <!-------------------- START MAIN -------------------->
+    <main>
+        <div class="container">
+            <!-------------------- START LEFT -------------------->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="images/p2.jpg" alt="">
+                    </div>
+
+                    <div class="handle">
+                        <h4>Louay Warwar</h4>
+                        <p class="text-muted">
+                            @louay
+                        </p>
+                    </div>
+                </a>
+                <!-------------------- START SIDEBAR -------------------->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="fa fa-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="fa fa-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+
+                    <a class="menu-item" id="notifications">
+                        <span><i class="fa fa-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Notifications</h3>
+                        <!-------------------- START NOTIFICATION POPUP -------------------->
+                        <div class="notifications-popup">
+                        <div>
+
+                            <div class="profile-photo">
+                                <img src="images/p2.jpg" alt="">
+                            </div>
+
+                            <div class="notification-body">
+                                <b>Bashir Sayour</b> accepted your friend request
+                                <small class="text-muted">2 DAYS AGO</small>
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                            <div class="profile-photo">
+                                <img src="images/p2.jpg" alt="">
+                            </div>
+
+                            <div class="notification-body">
+                                <b>Maamoun Assad</b> commented on a post you are tagged in
+                                <small class="text-muted">1 HOUR AGO</small>
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                            <div class="profile-photo">
+                                <img src="images/p2.jpg" alt="">
+                            </div>
+
+                            <div class="notification-body">
+                                <b>Jihad Samad</b> and <b>283 others</b> liked your post
+                                <small class="text-muted">2 MINS AGO</small>
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                            <div class="profile-photo">
+                                <img src="images/p2.jpg" alt="">
+                            </div>
+
+                            <div class="notification-body">
+                                <b>Bashar Shakik</b> commented on your post
+                                <small class="text-muted">30 MINS AGO</small>
+                            </div>
+
+                        </div>
+
+                        </div>
+                        <!-------------------- END NOTIFICATION POPUP -------------------->
+                    </a>
+
+                    <a class="menu-item" id="messages-notification">
+                        <span><i class="fa fa-envelope"><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="fa fa-bookmark"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="fa fa-line-chart"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+
+                    <a class="menu-item" id="theme">
+                        <span><i class="fa fa-paint-brush"></i></span>
+                        <h3>Theme</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="fa fa-cogs"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+                </div>
+                <!-------------------- END SIDEBAR -------------------->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            <!-------------------- END LEFT -------------------->
+            <!-------------------- START MIDDLE -------------------->
+            <div class="middle">
+                <!-------------------- START STORIES -------------------->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                        </div>
+                        <p class="name">Bashir Sayour</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                        </div>
+                        <p class="name">Khoder Osman</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                        </div>
+                        <p class="name">Ahmad Saghir</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                        </div>
+                        <p class="name">Wassim Kanj</p>
+                    </div>
+                </div>
+                <!-------------------- END STORIES -------------------->
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="images/p2.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Louay?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <!-------------------- START FEEDS -------------------->
+                <div class="feeds">
+                    <!-------------------- START FIRST FEED -------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/p2.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Wassim Kanj</h3>
+                                    <small>Bakhoun, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/p1.png" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="fa fa-heart-o"></i></span>
+                                <span><i class="fa fa-commenting-o"></i></span>
+                                <span><i class="fa fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa fa-bookmark-o"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/p2.jpg" alt=""></span>
+                            <span><img src="images/p2.jpg" alt=""></span>
+                            <span><img src="images/p2.jpg" alt=""></span>
+                            <p>Liked by <b>Ahmad Sayour</b> and 2,323 others</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Wassim Kanj</b> is tonight at Bekaasefrin. <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="text-muted comments">
+                            View all 277 comments
+                        </div>
+                    </div>
+                    <!-------------------- END FIRST FEED -------------------->
+                    <!-------------------- START SECOND FEED -------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/p2.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Jihad Warwar</h3>
+                                    <small>Bakhoun, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/p1.png" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="fa fa-heart-o"></i></span>
+                                <span><i class="fa fa-commenting-o"></i></span>
+                                <span><i class="fa fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa fa-bookmark-o"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/p2.jpg" alt=""></span>
+                            <span><img src="images/p2.jpg" alt=""></span>
+                            <span><img src="images/p2.jpg" alt=""></span>
+                            <p>Liked by <b>Ahmad Sayour</b> and 2,323 others</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Jihad Warwar</b> is tonight at Bekaasefrin. <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="text-muted comments">
+                            View all 277 comments
+                        </div>
+                    </div>
+                    <!-------------------- END SECOND FEED -------------------->
+                </div>
+                <!-------------------- END FEEDS -------------------->
+            </div>
+            <!-------------------- END MIDDLE -------------------->
+            <!-------------------- START EIGHT -------------------->
+            <div class="right">
+                <!-------------------- START MESSAGES -------------------->
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="fa fa-pencil-square-o"></i>
+                    </div>
+                    <!-------------------- START SEARCH BAR -------------------->
+                    <div class="search-bar">
+                        <i class="fa fa-search"></i>
+                        <input type="search" placeholder="Search messages" id="message-search">
+                    </div>
+                    <!-------------------- END SEARCH BAR -------------------->
+                    <!-------------------- START MESSAGES CATEGORY -------------------->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <!-------------------- END MESSAGES CATEGORY -------------------->
+                    <!-------------------- START MESSAGE -------------------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Ahmad Sayour</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Mahmoud hamadeh</h5>
+                            <p class="text-bold">2 new messages</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Ibrahim Skaf</h5>
+                            <p class="text-muted">Hello, how are you?</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/p2.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Omar Samadi</h5>
+                            <p class="text-bold">Birthday tomorrow!!</p>
+                        </div>
+                    </div>
+                    <!-------------------- END MESSAGE -------------------->
+                </div>
+                <!-------------------- END MESSAGES -------------------->
+                <!-------------------- START FRIEND REQUESTS -------------------->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/p2.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Salah Saghir</h5>
+                                <p class="text-muted">
+                                    15 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/p2.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Monzer Kanj</h5>
+                                <p class="text-muted">
+                                    7 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/p2.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Mouhammad Ajaj</h5>
+                                <p class="text-muted">
+                                    150 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------- END FRIEND REQUESTS -------------------->
+            </div>
+            <!-------------------- END RIGHT -------------------->
+        </div>
+    </main>
+    <!-------------------- END MAIN -------------------->
+
+    <!-------------------- START THEME CUSTOMIZATION -------------------->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size, color, and background.</p>
+            <!-------------------- START FONT SIZE -------------------->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                <div class="choose-size">
+                    <span class="font-size-1"></span>
+                    <span class="font-size-2 active"></span>
+                    <span class="font-size-3"></span>
+                    <span class="font-size-4"></span>
+                    <span class="font-size-5"></span>
+                </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!-------------------- END FONT SIZE -------------------->
+            <!-------------------- START PRIMARY COLOR -------------------->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!-------------------- END PRIMARY COLOR -------------------->
+            <!-------------------- START BACKGROUND COLOR -------------------->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+            <!-------------------- END BACKGROUND COLOR -------------------->
+        </div>
+    </div>
+    <!-------------------- END THEME CUSTOMIZATION -------------------->
+    
+    <script src="index.js"></script>
+</body>
+</html>
